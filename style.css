@@ -85,3 +85,31 @@ nav h2 {
     object-fit: cover;
     border-radius: 20%;
 }
+/* Desplazamiento suave entre secciones */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mantener el menu visible */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Diseño de las secciones */
+section {
+    padding: 30px;
+    margin: 25px;
+    background-color: white;
+    border-radius: 12px;
+    scroll-margin-top: 130px;
+}
+
+/* Diseño de la tarjeta Sobre mi */
+.tarjeta {
+    padding: 20px;
+    background-color: #f1f5f9;
+    border-radius: 10px;
+}
+
